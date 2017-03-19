@@ -1,0 +1,7 @@
+<postal-address> ::= <name-part> <street-address> <zip-part>
+<name-part> ::= <opt-apt-num> <personal-part> <last-name> <opt-suffix-part> <EOL>  | <EOL> <name-part>
+<personal-part> ::= <initial> "." | <first-name>
+<street-address> ::= <house-num> <street-name> <opt-apt-num> <EOL>
+<zip-part> ::= <town-name> "," <state-code> <ZIP-code> <opt-suffix-part>
+<opt-suffix-part> ::= "Sr." | "Jr." | <roman-numeral> | ""  
+<opt-apt-num> ::= <apt-num> | ""

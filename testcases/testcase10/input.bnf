@@ -1,0 +1,3 @@
+<token> ::= <token1> <token2>
+<token1> ::= "a" <token2> | "b" <token2> | ""
+<token2> ::= "a" <token1> | "b" <token1> | ""

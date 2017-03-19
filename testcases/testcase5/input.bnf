@@ -1,0 +1,5 @@
+<OS> ::= <Windows> | <Apple> | <Linux> | <???>
+<Windows> ::= "XP" | "WIN7" | "WIN8" | "WIN10"
+<Apple> ::= "Mavericks" | "Yosemite" | "EI Capitan" | "Sierra"
+<Linux> ::= "Ubuntu" | "CentOS" | "Debian" | "Fedora"
+<???> ::= "XP"
